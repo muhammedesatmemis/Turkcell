@@ -1,0 +1,32 @@
+Java'da değişkenlerin ve ifadelerin hangi tür veriyi temsil ettiğini açıkça belirtmek gerekmektedir. İşte Java'da bulunan temel veri tipleri:
+
+Primitif Veri Tipleri:
+Primitif veri tipleri, dilin temel yapı taşlarıdır ve bellekte doğrudan değerlerini tutarlar.
+Bu tipler değiştirilemezler (immutable) ve küçük boyutludurlar. Java'nın primitif veri tipleri şunlardır:
+
+byte: 8 bit işaretsiz tamsayı
+short: 16 bit işaretsiz tamsayı
+int: 32 bit işaretsiz tamsayı
+long: 64 bit işaretsiz tamsayı
+float: 32 bit ondalık sayı (kayan noktalı)
+double: 64 bit ondalık sayı (kayan noktalı)
+char: 16 bit Unicode karakter
+boolean: Mantıksal değer (true veya false)
+Referans Veri Tipleri:
+Referans veri tipleri, nesneleri temsil eder ve bellekte nesnenin referansını (adresini) tutarlar.
+Bu tipler değiştirilebilir (mutable) ve daha büyük boyutludur. Java'nın temel referans veri tipi class olarak adlandırılan sınıflardır.
+Ayrıca, kullanıcı tanımlı veri tipleri de bu kategoride yer alır.
+
+Java ayrıca primitif veri tiplerinin her biri için "sarmalayıcı sınıflar" sağlar.
+Örneğin, int veri türü için Integer sınıfı gibi. Bu sarmalayıcı sınıflar, primitif veri tiplerini nesne gibi kullanmanıza olanak tanır.
+
+Dizi Veri Tipleri:
+Dizi veri tipleri, aynı türden birden çok değeri saklamak için kullanılır.
+Her türlü veri tipine ait diziler oluşturulabilir. Diziler, bellekte ardışık olarak saklanan verilerdir.
+
+String:
+Java'da metin verileri String sınıfı ile temsil edilir. String sınıfı, metin işlemleri yapmak için bir dizi işlev ve yöntem sunar.
+Ancak, String sınıfı primitif bir veri türü değil, bir sınıftır.
+
+Java'da veri tipleri, değişkenlerin türünü belirlemek ve programdaki verileri doğru şekilde işlemek için temel bir araçtır.
+Bu veri tipleri, programlama dilinin güvenli ve düzgün çalışmasını sağlar.
